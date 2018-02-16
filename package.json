@@ -1,0 +1,28 @@
+{
+  "name": "javascript-toolkit-docs",
+  "version": "0.0.0",
+  "description": "Javascript toolkit documents.",
+  "homepage": "https://github.com/afeiship/javascript-toolkit-docs",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "node server.js"
+  },
+  "main": "dist/javascript-toolkit-docs.js",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^2.1.2",
+    "yargs": "^4.7.1"
+  }
+}
