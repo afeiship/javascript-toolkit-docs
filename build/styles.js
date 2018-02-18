@@ -9,14 +9,9 @@
   });
 
   gulp.task('styles', function () {
-    return gulp.src('src/*.scss')
+    return gulp.src('src/sass/*.scss')
       .pipe($.sass({outputStyle: 'expanded'}).on('error', $.sass.logError))
-      .pipe(gulp.dest('dist'))
-      .pipe($.sass({outputStyle: 'compressed'}).on('error', $.sass.logError))
-      .pipe($.rename({
-        extname: '.min.css'
-      }))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest('src/css'));
   });
 
 }());
