@@ -9,8 +9,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "dev": "gulp styles:watch",
-    "start": "node server.js"
+    "dev": "gulp styles:watch & node server.js"
   },
   "main": "dist/javascript-toolkit-docs.js",
   "license": "MIT",
