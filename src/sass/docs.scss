@@ -4,6 +4,20 @@ html,body{
   height:100%;
 }
 
+.vim-center{
+  >*{
+    vertical-align: middle;
+    display: inline-block;
+  }
+  &:after{
+    content:'';
+    width:0;
+    display: inline-block;
+    vertical-align: middle;
+    height:100%;
+  }
+}
+
 .container{
   min-height:100%;
   .header{
@@ -13,7 +27,29 @@ html,body{
     top:0;
     background: #fff;
     border-bottom: 1px solid #eee;
+    .logo{
+      padding-left: 20px;
+      height:100%;
+      a{
+        font-size:24px;
+      }
+    }
+
+    .nav-links{
+      padding-right: 20px;
+      height: 100%;
+      float: right;
+      a{
+        font-size: 14px;
+        margin-left: 10px;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
   }
+
+
   .footer{
     width:100%;
     height:100px;
