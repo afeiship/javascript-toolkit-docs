@@ -2,4 +2,4 @@
 > Javascript toolkit documents.
 
 ## resouces:
-+ https://okoala.github.io/vue-antd/#!/components
++ http://okoala.github.io/vue-antd/#!/components
